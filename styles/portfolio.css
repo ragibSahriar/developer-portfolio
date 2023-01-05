@@ -238,3 +238,21 @@ section {
     margin-top: 50px;
     text-align: center;
 }
+/* footer */
+.contact {
+    display: flex;
+    gap: 100px;
+    background-color:#FFF8F3;;
+    padding: 130px 200px;
+
+}
+
+.contact input[type="text"],input[type="email"], textarea {
+    margin: 24px;
+    border: none;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a{
+    text-decoration: none;
+}
