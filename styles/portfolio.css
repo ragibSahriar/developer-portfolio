@@ -32,8 +32,9 @@ nav {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    
+
 }
+
 .nav-title {
     font-weight: 800;
     font-size: 45px;
@@ -54,10 +55,12 @@ nav ul li {
     list-style: none;
     margin-left: 50px;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #181818;
 }
+
 /* banner */
 
 .banner {
@@ -108,5 +111,58 @@ nav ul li a {
     font-size: 20px;
     line-height: 27px;
     text-align: center;
+
+}
+
+/* About section styles */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+
+}
+
+.about {
+    text-align: center;
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.section-title {
+
+    margin-bottom: 30px;
+    font-size: 35px;
+    line-height: 48px;
+    font-size: 35px;
+    line-height: 48px;
+
+}
+
+.section-des {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about .info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 
 }
